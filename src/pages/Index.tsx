@@ -208,6 +208,132 @@ export default function Index() {
                 <span className="text-white font-bold text-xl">RHINOS</span>
               </div>
             </div>
+            <div className="relative h-48 rounded-lg overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1633824489397-7becc7c54fb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                alt="Giraffe"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors flex items-center justify-center">
+                <span className="text-white font-bold text-xl">GIRAFFES</span>
+              </div>
+            </div>
+            <div className="relative h-48 rounded-lg overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1706616172847-7a0a33972b27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                alt="Hippopotamus"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors flex items-center justify-center">
+                <span className="text-white font-bold text-xl">HIPPOS</span>
+              </div>
+            </div>
+            <div className="relative h-48 rounded-lg overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1583812361298-cdbff7aaf87e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                alt="Leopard"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors flex items-center justify-center">
+                <span className="text-white font-bold text-xl">LEOPARDS</span>
+              </div>
+            </div>
+            <div className="relative h-48 rounded-lg overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1656119651637-64f383f19a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                alt="Baboon"
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+              />
+              <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors flex items-center justify-center">
+                <span className="text-white font-bold text-xl">MONKEYS</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Maasai Culture & Traditions Section */}
+      <section className="py-20 bg-[#FDF6E9]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Palette className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
+              Maasai Culture & Traditions
+            </h2>
+            <p className="text-xl text-[#5C4033] max-w-3xl mx-auto">
+              Experience the vibrant traditions, music, and storytelling of the Maasai people
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="relative h-96 rounded-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1537706388178-55c10865b82e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
+                alt="Maasai Cultural Dance"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-center justify-center">
+                <div className="text-center text-white">
+                  <h3 className="text-3xl font-bold mb-2">Traditional Maasai Dance</h3>
+                  <p className="text-lg text-[#D4915D]">Experience the vibrant rhythms and cultural significance of Maasai dances</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative h-96 rounded-lg overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1504218531034-0914083ad68d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
+                alt="Maasai Storytelling and Culture"
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-center justify-center">
+                <div className="text-center text-white">
+                  <h3 className="text-3xl font-bold mb-2">Maasai Storytelling</h3>
+                  <p className="text-lg text-[#D4915D]">Learn about Maasai history, traditions, and cultural values</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Maasai Beadwork</h3>
+                <p className="text-[#5C4033] mb-4">
+                  Exquisite handmade jewelry and ornaments crafted by Maasai artisans using traditional
+                  techniques passed down through generations.
+                </p>
+                <div className="bg-[#FDF6E9] rounded-lg p-4">
+                  <p className="text-sm font-semibold text-[#5C4033]">Learn more about Maasai beadwork traditions</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Maasai Music</h3>
+                <p className="text-[#5C4033] mb-4">
+                  Experience traditional Maasai music and dance performances that tell stories of their
+                  history, values, and connection to nature.
+                </p>
+                <div className="bg-[#FDF6E9] rounded-lg p-4">
+                  <p className="text-sm font-semibold text-[#5C4033]">Join a traditional Maasai music session</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Maasai Cuisine</h3>
+                <p className="text-[#5C4033] mb-4">
+                  Taste authentic Maasai dishes like sukuma wiki, millet porridge, and traditional
+                  Maasai meat dishes prepared with local ingredients.
+                </p>
+                <div className="bg-[#FDF6E9] rounded-lg p-4">
+                  <p className="text-sm font-semibold text-[#5C4033]">Experience Maasai cooking demonstrations</p>
+                </div>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
