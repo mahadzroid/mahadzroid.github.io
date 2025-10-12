@@ -404,6 +404,18 @@ export default function Index() {
                 alt="Zanzibar Beach"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
+              <div className="grid grid-cols-2 gap-6 mt-6">
+                <img
+                  src="https://images.unsplash.com/photo-1659559108285-fb280f0e790d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                  alt="Luxury Beach Resort Zanzibar"
+                  className="rounded-lg shadow-lg w-full h-48 object-cover"
+                />
+                <img
+                  src="https://images.unsplash.com/photo-1574780609619-393fb8edffd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                  alt="Zanzibar Island Paradise"
+                  className="rounded-lg shadow-lg w-full h-48 object-cover"
+                />
+              </div>
             </div>
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -748,11 +760,11 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-[#D4915D]" />
-                  <span className="text-gray-300">+255 123 456 789</span>
+                  <span className="text-gray-300">0789548857</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-[#D4915D]" />
-                  <span className="text-gray-300">info@hozasafaris.com</span>
+                  <span className="text-gray-300">info@hozatanzaniasafaris.com</span>
                 </div>
               </div>
             </div>
