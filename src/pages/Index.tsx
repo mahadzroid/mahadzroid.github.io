@@ -490,8 +490,13 @@ export default function Index() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="relative h-48 bg-gradient-to-br from-[#D4915D] to-[#8B6F47] flex items-center justify-center">
-                <Sparkles className="w-20 h-20 text-white" />
+              <div className="relative h-48">
+                <img
+                  src="https://images.unsplash.com/photo-1566636741346-7bc0510fdaa5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="Maasai Beadwork"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Maasai Beadwork</h3>
@@ -503,8 +508,13 @@ export default function Index() {
             </Card>
 
             <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="relative h-48 bg-gradient-to-br from-[#8B6F47] to-[#5C4033] flex items-center justify-center">
-                <Palette className="w-20 h-20 text-white" />
+              <div className="relative h-48">
+                <img
+                  src="https://images.unsplash.com/photo-1561190717-706e279f40a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="Tingatinga Paintings"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Tingatinga Paintings</h3>
@@ -516,8 +526,13 @@ export default function Index() {
             </Card>
 
             <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
-              <div className="relative h-48 bg-gradient-to-br from-[#5C4033] to-[#2C1810] flex items-center justify-center">
-                <Mountain className="w-20 h-20 text-white" />
+              <div className="relative h-48">
+                <img
+                  src="https://images.unsplash.com/photo-1720945489924-19b707539b3a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="African Wood Carvings"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Wood Carvings</h3>
