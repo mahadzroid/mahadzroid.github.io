@@ -12,6 +12,14 @@ import {
   Mail,
   Phone,
   MapPin,
+  CreditCard,
+  Smartphone,
+  Globe,
+  Calendar,
+  Sparkles,
+  Palette,
+  MessageCircle,
+  CheckCircle,
 } from "lucide-react";
 
 export default function Index() {
@@ -204,6 +212,100 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Seasons & Animal Tracking Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Calendar className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
+              Best Seasons & Animal Sightings
+            </h2>
+            <p className="text-xl text-[#5C4033] max-w-3xl mx-auto">
+              Plan your perfect safari adventure with our seasonal wildlife tracking guide
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Dry Season */}
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-8">
+                <div className="flex items-center mb-4">
+                  <Sparkles className="w-8 h-8 text-[#F5B461] mr-3" />
+                  <h3 className="text-2xl font-bold text-[#2C1810]">Dry Season (June - October)</h3>
+                </div>
+                <p className="text-[#5C4033] mb-6">
+                  The best time for wildlife viewing. Animals gather around water sources, making them easier to spot.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Peak Great Migration river crossings</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Excellent Big Five sightings</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Clear skies and comfortable temperatures</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Wet Season */}
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-8">
+                <div className="flex items-center mb-4">
+                  <Sparkles className="w-8 h-8 text-[#4A9FB8] mr-3" />
+                  <h3 className="text-2xl font-bold text-[#2C1810]">Green Season (November - May)</h3>
+                </div>
+                <p className="text-[#5C4033] mb-6">
+                  Lush landscapes and newborn animals. Perfect for photographers and fewer crowds.
+                </p>
+                <div className="space-y-3">
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Calving season with baby animals</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Vibrant green scenery and wildflowers</span>
+                  </div>
+                  <div className="flex items-start">
+                    <CheckCircle className="w-5 h-5 text-[#D4915D] mr-2 mt-0.5 flex-shrink-0" />
+                    <span className="text-[#5C4033]">Excellent bird watching opportunities</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Animal Ranking */}
+          <div className="bg-[#FDF6E9] rounded-2xl p-8 md:p-12">
+            <h3 className="text-3xl font-bold text-[#2C1810] mb-8 text-center">
+              Wildlife Sighting Probability
+            </h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6">
+              {[
+                { animal: "Elephants", probability: "95%" },
+                { animal: "Lions", probability: "85%" },
+                { animal: "Zebras", probability: "98%" },
+                { animal: "Cheetahs", probability: "70%" },
+                { animal: "Leopards", probability: "60%" },
+              ].map((item) => (
+                <div key={item.animal} className="text-center">
+                  <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-xl transition-shadow">
+                    <div className="text-4xl font-bold text-[#D4915D] mb-2">{item.probability}</div>
+                    <div className="text-lg font-semibold text-[#2C1810]">{item.animal}</div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Adventures Section */}
       <section id="adventures" className="py-20 bg-[#2C1810] text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -370,6 +472,200 @@ export default function Index() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Tanzanian Arts & Crafts Section */}
+      <section className="py-20 bg-[#FDF6E9]">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Palette className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
+              Tanzanian Arts & Crafts
+            </h2>
+            <p className="text-xl text-[#5C4033] max-w-3xl mx-auto">
+              Discover authentic Maasai and Tanzanian handcrafted treasures to take home
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
+              <div className="relative h-48 bg-gradient-to-br from-[#D4915D] to-[#8B6F47] flex items-center justify-center">
+                <Sparkles className="w-20 h-20 text-white" />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Maasai Beadwork</h3>
+                <p className="text-[#5C4033]">
+                  Exquisite handmade jewelry and ornaments crafted by Maasai artisans using traditional
+                  techniques passed down through generations.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
+              <div className="relative h-48 bg-gradient-to-br from-[#8B6F47] to-[#5C4033] flex items-center justify-center">
+                <Palette className="w-20 h-20 text-white" />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Tingatinga Paintings</h3>
+                <p className="text-[#5C4033]">
+                  Vibrant and colorful paintings depicting African wildlife and village life, created in the
+                  distinctive Tingatinga style unique to Tanzania.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow overflow-hidden">
+              <div className="relative h-48 bg-gradient-to-br from-[#5C4033] to-[#2C1810] flex items-center justify-center">
+                <Mountain className="w-20 h-20 text-white" />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-3">Wood Carvings</h3>
+                <p className="text-[#5C4033]">
+                  Intricately carved wooden sculptures of wildlife, tribal masks, and traditional Makonde art
+                  pieces from skilled local craftsmen.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Payment Methods Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <CreditCard className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
+              Easy & Secure Payment Methods
+            </h2>
+            <p className="text-xl text-[#5C4033] max-w-3xl mx-auto">
+              We accept multiple payment options for your convenience
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            {/* Tigo Pesa */}
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-8 text-center">
+                <div className="bg-[#FDF6E9] rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <Smartphone className="w-10 h-10 text-[#D4915D]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Tigo Pesa</h3>
+                <p className="text-[#5C4033] mb-6">
+                  Pay easily with Tigo Pesa mobile money. Fast, secure, and convenient for local payments.
+                </p>
+                <div className="bg-[#FDF6E9] rounded-lg p-4">
+                  <p className="text-sm font-semibold text-[#5C4033]">Send to:</p>
+                  <p className="text-lg font-bold text-[#D4915D]">+255 123 456 789</p>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Online Payment */}
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-8 text-center">
+                <div className="bg-[#FDF6E9] rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <CreditCard className="w-10 h-10 text-[#D4915D]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Online Payment</h3>
+                <p className="text-[#5C4033] mb-6">
+                  Secure online payments with credit/debit cards. We accept Visa, Mastercard, and American Express.
+                </p>
+                <Button className="bg-[#D4915D] hover:bg-[#F5B461] text-white w-full">
+                  Pay Online
+                </Button>
+              </CardContent>
+            </Card>
+
+            {/* Bank Transfer */}
+            <Card className="border-[#D4915D] hover:shadow-xl transition-shadow">
+              <CardContent className="p-8 text-center">
+                <div className="bg-[#FDF6E9] rounded-full w-20 h-20 flex items-center justify-center mx-auto mb-6">
+                  <Globe className="w-10 h-10 text-[#D4915D]" />
+                </div>
+                <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Bank Transfer</h3>
+                <p className="text-[#5C4033] mb-6">
+                  International wire transfers accepted. Contact us for bank details and currency exchange information.
+                </p>
+                <Button variant="secondary" className="w-full border-2 border-[#D4915D]">
+                  Get Details
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="bg-[#FDF6E9] rounded-2xl p-8 text-center">
+            <h3 className="text-2xl font-bold text-[#2C1810] mb-4">Flexible Payment Plans</h3>
+            <p className="text-lg text-[#5C4033] max-w-3xl mx-auto">
+              We offer flexible payment options including deposits and installment plans. Contact us to discuss a
+              payment schedule that works for you!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Chat Support Section */}
+      <section className="py-20 bg-gradient-to-br from-[#2C1810] to-[#1A0F0A] text-white">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <MessageCircle className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              24/7 AI Safari Assistant
+            </h2>
+            <p className="text-xl text-[#D4915D]">
+              Get instant answers to your safari questions anytime
+            </p>
+          </div>
+
+          <Card className="bg-white/10 backdrop-blur-lg border-[#D4915D]">
+            <CardContent className="p-8">
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="bg-[#D4915D] rounded-full p-3 flex-shrink-0">
+                    <MessageCircle className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1">
+                    <h3 className="text-xl font-bold text-white mb-2">Ask Me Anything</h3>
+                    <p className="text-gray-300 mb-4">
+                      Our AI assistant can help you with safari packages, availability, wildlife information,
+                      best travel times, and more!
+                    </p>
+                    <div className="bg-white/10 rounded-lg p-4 mb-4">
+                      <input
+                        type="text"
+                        placeholder="Ask about safari packages, wildlife, seasons..."
+                        className="w-full bg-transparent border-none outline-none text-white placeholder-gray-400"
+                      />
+                    </div>
+                    <Button className="bg-[#D4915D] hover:bg-[#F5B461] text-white w-full">
+                      <MessageCircle className="w-5 h-5 mr-2" />
+                      Start Conversation
+                    </Button>
+                  </div>
+                </div>
+
+                <div className="border-t border-white/20 pt-6">
+                  <h4 className="text-lg font-semibold text-white mb-3">Popular Questions:</h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    {[
+                      "What's included in safari packages?",
+                      "Best time to see the migration?",
+                      "How to prepare for Kilimanjaro?",
+                      "Zanzibar accommodation options?",
+                    ].map((question) => (
+                      <button
+                        key={question}
+                        className="bg-white/10 hover:bg-white/20 rounded-lg p-3 text-left text-sm text-gray-300 transition-colors"
+                      >
+                        {question}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
