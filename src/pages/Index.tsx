@@ -487,6 +487,70 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Tanzania Video Showcase Section */}
+      <section className="py-20 bg-[#2C1810] text-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Discover Tanzania's Magic
+            </h2>
+            <p className="text-xl text-[#D4915D] max-w-3xl mx-auto">
+              Experience the breathtaking beauty, vibrant culture, and incredible wildlife of Tanzania
+            </p>
+          </div>
+
+          <div className="max-w-5xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl" style={{ paddingBottom: '56.25%' }}>
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/KkWYnJZ0v3g?si=dQw4w9WgXcQ&rel=0&modestbranding=1"
+                title="Tanzania Safari Wildlife and Culture"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+              <Card className="bg-[#1A0F0A] border-[#D4915D]">
+                <CardContent className="p-6 text-center">
+                  <div className="bg-[#D4915D] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Sparkles className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-2">Wildlife Wonders</h3>
+                  <p className="text-gray-300">
+                    Witness the Big Five and the Great Migration in their natural habitat
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-[#1A0F0A] border-[#D4915D]">
+                <CardContent className="p-6 text-center">
+                  <div className="bg-[#D4915D] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Palette className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-2">Rich Culture</h3>
+                  <p className="text-gray-300">
+                    Experience authentic Maasai traditions and Swahili heritage
+                  </p>
+                </CardContent>
+              </Card>
+
+              <Card className="bg-[#1A0F0A] border-[#D4915D]">
+                <CardContent className="p-6 text-center">
+                  <div className="bg-[#D4915D] w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <Mountain className="w-8 h-8 text-white" />
+                  </div>
+                  <h3 className="text-xl font-bold text-white mb-2">Stunning Landscapes</h3>
+                  <p className="text-gray-300">
+                    From Serengeti plains to Kilimanjaro's peak and Zanzibar shores
+                  </p>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Tanzanian Arts & Crafts Section */}
       <section className="py-20 bg-[#FDF6E9]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
