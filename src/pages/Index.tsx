@@ -30,7 +30,7 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-20">
             <div className="flex items-center space-x-3">
-              <img src="/logo.svg" alt="HOZA Tanzania Safaris" className="h-12 w-auto" />
+              <img src="https://cdn.hercules.app/file_REiJmnbhe2s3TbLyhtKmbMG8" alt="HOZA Tanzania Safaris" className="h-12 w-auto" />
               <div>
                 <h1 className="text-xl font-bold text-[#D4915D]">HOZA</h1>
                 <p className="text-xs text-[#8B6F47]">TANZANIA SAFARIS</p>
