@@ -526,18 +526,18 @@ export default function Index() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1536709194242-960fecf7712f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
+                src="https://images.unsplash.com/photo-1747923597054-4e74953d4c46?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1200"
                 alt="Zanzibar Beach"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
               <div className="grid grid-cols-2 gap-6 mt-6">
                 <img
-                  src="https://images.unsplash.com/photo-1659559108285-fb280f0e790d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                  src="https://images.unsplash.com/photo-1681471809343-eb065e2ea356?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
                   alt="Luxury Beach Resort Zanzibar"
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
                 <img
-                  src="https://images.unsplash.com/photo-1574780609619-393fb8edffd6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
+                  src="https://images.unsplash.com/photo-1584558565378-7d27dc381db3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=600"
                   alt="Zanzibar Island Paradise"
                   className="rounded-lg shadow-lg w-full h-48 object-cover"
                 />
