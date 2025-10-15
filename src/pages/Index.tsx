@@ -865,7 +865,7 @@ export default function Index() {
             {/* Company Info */}
             <div>
               <div className="flex items-center space-x-3 mb-6">
-                <img src="/logo.svg" alt="HOZA Tanzania Safaris" className="h-12 w-auto" />
+                <img src="https://cdn.hercules.app/file_REiJmnbhe2s3TbLyhtKmbMG8" alt="HOZA Tanzania Safaris" className="h-12 w-auto" />
                 <div>
                   <h3 className="text-xl font-bold text-[#D4915D]">HOZA</h3>
                   <p className="text-xs text-[#8B6F47]">TANZANIA SAFARIS</p>
