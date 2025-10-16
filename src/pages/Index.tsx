@@ -876,8 +876,8 @@ export default function Index() {
             <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
               <div className="relative h-80">
                 <img
-                  src="https://images.unsplash.com/photo-1548781612-d0b9cdefd259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
-                  alt="Happy safari tourists in vehicle"
+                  src="https://cdn.hercules.app/file_75EmPRt4bfa2BQ31EQS8hR3Z"
+                  alt="Happy safari tourists"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
@@ -891,7 +891,7 @@ export default function Index() {
             <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
               <div className="relative h-80">
                 <img
-                  src="https://images.unsplash.com/photo-1709567484031-87bc70607500?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  src="https://cdn.hercules.app/file_z9V6IM0i9QC5Slh8Y6zm2Vis"
                   alt="Group of tourists on safari"
                   className="w-full h-full object-cover"
                 />
@@ -906,7 +906,7 @@ export default function Index() {
             <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
               <div className="relative h-80">
                 <img
-                  src="https://images.unsplash.com/photo-1709403548434-500b0bf09d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  src="https://cdn.hercules.app/file_BwTMEgYvhxBqXEAELqevgUvt"
                   alt="Safari tour group exploring Tanzania"
                   className="w-full h-full object-cover"
                 />
