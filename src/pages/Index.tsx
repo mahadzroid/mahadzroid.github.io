@@ -858,6 +858,87 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Our Happy Visitors Section */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <Sparkles className="w-16 h-16 text-[#D4915D] mx-auto mb-4" />
+            <h2 className="text-4xl md:text-5xl font-bold text-[#2C1810] mb-4">
+              Our Happy Visitors
+            </h2>
+            <p className="text-xl text-[#5C4033] max-w-3xl mx-auto">
+              Join thousands of satisfied travelers who have experienced the magic of Tanzania with HOZA Safaris
+            </p>
+          </div>
+
+          {/* Visitor Gallery */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="https://images.unsplash.com/photo-1548781612-d0b9cdefd259?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="Happy safari tourists in vehicle"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="text-2xl font-bold text-white mb-2">Safari Adventures</h3>
+                  <p className="text-[#F5B461]">Exploring the wilderness together</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="https://images.unsplash.com/photo-1709567484031-87bc70607500?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="Group of tourists on safari"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="text-2xl font-bold text-white mb-2">Wildlife Encounters</h3>
+                  <p className="text-[#F5B461]">Creating unforgettable memories</p>
+                </div>
+              </div>
+            </Card>
+
+            <Card className="overflow-hidden border-[#D4915D] hover:shadow-2xl transition-shadow">
+              <div className="relative h-80">
+                <img
+                  src="https://images.unsplash.com/photo-1709403548434-500b0bf09d21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=800"
+                  alt="Safari tour group exploring Tanzania"
+                  className="w-full h-full object-cover"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent" />
+                <div className="absolute bottom-6 left-6 right-6">
+                  <h3 className="text-2xl font-bold text-white mb-2">Journey Together</h3>
+                  <p className="text-[#F5B461]">Experiencing Africa's beauty</p>
+                </div>
+              </div>
+            </Card>
+          </div>
+
+          {/* Testimonial Highlights */}
+          <div className="bg-[#FDF6E9] rounded-2xl p-8 md:p-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <div>
+                <div className="text-5xl font-bold text-[#D4915D] mb-2">10,000+</div>
+                <p className="text-lg text-[#5C4033]">Happy Visitors</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-[#D4915D] mb-2">15+</div>
+                <p className="text-lg text-[#5C4033]">Years Experience</p>
+              </div>
+              <div>
+                <div className="text-5xl font-bold text-[#D4915D] mb-2">98%</div>
+                <p className="text-lg text-[#5C4033]">Satisfaction Rate</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Footer */}
       <footer className="bg-[#2C1810] text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
