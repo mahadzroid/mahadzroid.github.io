@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" fill="none">
+  <!-- Elephant Silhouette with Safari Scene Inside -->
+  <path d="M140 20 Q145 18 150 20 L155 15 Q157 13 159 15 L162 10 Q163 8 165 10 L168 8 Q170 7 172 10 L175 15 L180 20 Q185 23 185 28 L185 35 Q185 40 180 45 L175 50 Q170 53 165 53 L160 53 L160 60 Q160 65 155 65 L150 65 Q145 65 145 60 L145 50 L140 50 Q135 50 132 45 L128 38 Q125 32 125 28 Q125 23 128 20 L132 18 Q135 17 140 20 Z" fill="#2C1810"/>
+  
+  <!-- Safari scene inside elephant -->
+  <circle cx="155" cy="30" r="8" fill="#D4915D" opacity="0.6"/>
+  <rect x="150" y="32" width="2" height="6" fill="#5C4033"/>
+  <ellipse cx="155" cy="28" rx="6" ry="3" fill="#8B6F47"/>
+  
+  <!-- Text -->
+  <text x="30" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2C1810">HOZA</text>
+  <text x="20" y="60" font-family="Arial, sans-serif" font-size="12" fill="#8B6F47">TANZANIA SAFARIS</text>
+</svg>
